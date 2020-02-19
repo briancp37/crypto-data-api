@@ -1,35 +1,33 @@
 # Crypto Data API
 
+## How to Use
 
+'''python
+import crypto-data-api as cd
+
+cd.Options().get_data(pprint=True)
+
+cd.Options().get_df(pprint=True)
+'''
 
 
 
 ## Build status
-Early beta mode.  Data download is stable from BigQuery.
+Stable
 
 [![Build Status](https://travis-ci.org/akashnimare/foco.svg?branch=master)](https://travis-ci.org/akashnimare/foco)
 
 
-## Code style
-Project is pep8 compliant.
+## Data Sources
+Options:
+ - Deribit
+ - LedgerX
+ - CME*
+ - Bakkt*
+ - FTX*
 
-[![PEP8](https://img.shields.io/badge/code%20style-pep8-orange.svg)](https://www.python.org/dev/peps/pep-0008/)
  
 
-## Screenshots
-Include logo/demo screenshot etc.
-
-
-## Tech/framework used
-Ex. -
-
-<b>Built with</b>
-- [Dash](https://dash.plot.ly/)
-- [Pandas](https://pandas.pydata.org/pandas-docs/stable/)
-- [vollib](https://github.com/vollib/vollib)
-<!-- and without jargon in this [Technograph article](http://www.dailyillini.com/article/2016/04/automatic-speech-recognition). -->
-<!-- ## Features
-What makes your project stand out?
 
 
 ## Useful Links
@@ -40,6 +38,7 @@ What makes your project stand out?
 - [Github commits](https://medium.com/@panjeh/makefile-git-add-commit-push-github-all-in-one-command-9dcf76220f48)
 - [Download CSV Button](https://community.plot.ly/t/allowing-users-to-download-csv-on-click/5550)
 - [Useful Python Quant Finance Libraries](https://financetrain.com/best-python-librariespackages-finance-financial-data-scientists/)
+- [Multiple Accounts](https://www.freecodecamp.org/news/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca/)
 
 ## signing in
 ssh -T git@github.com
