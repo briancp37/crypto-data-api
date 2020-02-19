@@ -5,9 +5,10 @@
 ```python
 import crypto-data-api as cd
 
-cd.Options().get_data(pprint=True)
+options = cd.Options(crypto_type = 'BTC', exchanges=['deribit', 'ledgerx'])
 
-cd.Options().get_df(pprint=True)
+options.get_data(pprint=True)
+options.get_df(pprint=True)
 ```
 
 
