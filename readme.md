@@ -2,13 +2,13 @@
 
 ## How to Use
 
-'''python
+```python
 import crypto-data-api as cd
 
 cd.Options().get_data(pprint=True)
 
 cd.Options().get_df(pprint=True)
-'''
+```
 
 
 
