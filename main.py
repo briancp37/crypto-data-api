@@ -1,5 +1,5 @@
-from .historical import Data
-from .historical import Analysis
+from historical import Data
+from historical import Analysis
 
 class Historical:
     def __init__(self):
@@ -9,3 +9,5 @@ class Historical:
     #     return Data
     # def Analysis(self):
     #     return Analysis
+
+    

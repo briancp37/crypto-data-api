@@ -100,6 +100,10 @@ class SrLines(object):
 #        e = time.time()
 #        print("fit time = {}".format(e-d))
         self.cluster_centers = [np.exp(c[0]) for c in self.ms.cluster_centers_]
+
+        self.cluster_centers = np.sort(self.cluster_centers)
+        self.cluster_centers = np.append(self.cluster_centers, max(prices))
+        self.cluster_centers = np.insert(self.cluster_centers, 0, 0, axis=0)
         return self.cluster_centers
 
 

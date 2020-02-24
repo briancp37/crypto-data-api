@@ -28,9 +28,9 @@ class Analysis:
     def sr_lines(self, df, plot = False, band_q=.0475, n_jobs=-1, ):
         SRL = SrLines(df)
         self.lines = SRL.sr_lines()
-        self.lines = np.sort(self.lines)
-        self.lines = np.append(self.lines, max(df['high']))
-        self.lines = np.insert(self.lines, 0, 0, axis=0)
+        # self.lines = np.sort(self.lines)
+        # self.lines = np.append(self.lines, max(df['high']))
+        # self.lines = np.insert(self.lines, 0, 0, axis=0)
         if plot == True:
             chart(df, self.lines)
         return self.lines
