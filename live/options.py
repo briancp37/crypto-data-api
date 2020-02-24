@@ -1,8 +1,8 @@
 import json
 import pandas as pd
 
-from api import Deribit
-from api import LedgerX
+from .api import Deribit
+from .api import LedgerX
 
 
 class Options:
@@ -62,5 +62,5 @@ class Options:
         
 
 
-exchanges = ['deribit', 'ledgerx']
-Options('BTC', exchanges).get_df(pprint=True)
+# exchanges = ['deribit', 'ledgerx']
+# Options('BTC', exchanges).get_df(pprint=True)
