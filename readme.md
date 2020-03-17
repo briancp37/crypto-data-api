@@ -40,6 +40,7 @@ Options:
 - [Download CSV Button](https://community.plot.ly/t/allowing-users-to-download-csv-on-click/5550)
 - [Useful Python Quant Finance Libraries](https://financetrain.com/best-python-librariespackages-finance-financial-data-scientists/)
 - [Multiple Accounts](https://www.freecodecamp.org/news/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca/)
+- [Add gitignore to existing repo](http://www.codeblocq.com/2016/01/Untrack-files-already-added-to-git-repository-based-on-gitignore/)
 
 ## signing in
 ssh -T git@github.com
